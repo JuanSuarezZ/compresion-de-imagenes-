@@ -1,0 +1,49 @@
+<!--
+Copyright 2018 Google LLC.
+SPDX-License-Identifier: Apache-2.0
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Imagemin Demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Foobar Flowershop
+      </h1>
+      <p>We sell the best flowers!</p>
+    </header>
+    <div class="wrapper">
+      <hr>
+      <picture>
+        <!-- avif -->
+        <!-- <source srcset="assets/imgs/Barranquilla-sm.avif" media="(max-width: 640px)" type="image/avif" />
+        <source srcset="assets/imgs/Barranquilla-md.avif" media="(max-width: 768px)" type="image/avif" />
+        <source srcset="assets/imgs/Barranquilla-lg.avif" media="(max-width: 1024px)" type="image/avif" /> -->
+        <!-- webp -->
+        <source srcset="assets/imgs/Barranquilla-sm.webp" media="(max-width: 375)"  type="image/webp" />
+        <source srcset="assets/imgs/Barranquilla-md.webp" media="(max-width: 768px)" type="image/webp" />
+        <source srcset="assets/imgs/Barranquilla-lg.webp" media="(max-width: 1024px)" type="image/webp" />
+        <!-- jpeg
+        <source srcset="assets/imgs/Barranquilla-sm.jpeg" media="(max-width: 640px)" type="image/jpeg" />
+        <source srcset="assets/imgs/Barranquilla-md.jpeg" media="(max-width: 768px)" type="image/jpeg" />
+        <source srcset="assets/imgs/Barranquilla-lg.jpeg" media="(max-width: 1024px)" type="image/jpeg" /> -->
+        <!-- original -->
+        <img src="assets/imgs/Barranquilla.png" class="img-responsive" />
+      </picture>
+      
+      <!-- <picture> -->
+        <!-- <source type="image/webp" srcset="assets/imgs/flower1.webp"> -->
+        <!-- <img src="assets/imgs/flower1.jpg" alt=""> -->
+        <!-- <img src="assets/imgs/Barranquilla.png-small.jpg" alt="">  -->
+      <!-- </picture> -->
+      <div class="price">Violet bouquet- $9</div>
+    </div>
+    
+  </body>
+</html>
